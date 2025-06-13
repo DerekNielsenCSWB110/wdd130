@@ -1,32 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Derek Nielsen | WDD 130</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <meta name="description" content="My name is Derek Nielsen, I live in the United States. The purpose of this page is to be an assignment for my Web Dundamentals class showing how well I know how to use elements like htl and css to make a website.">
-    <meta name="author" content="Derek Nielsen">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="wwr/about.html">Rafting Website</a>
-      </nav>
-    </header>
-    <main>
-      <h1>Derek Nielsen | WDD 130</h1>
-      <img src="images/profile.png" alt="Hello, my name is Derek Nielsen" width="200">
-      <p>Hello! My name is Derek Nielsen and I am from California, United States. I enjoy ... </p>
-    </main>
-    <aside>
-      <h2>California</h2>
-      <img src="images/california.jpg" alt="California landscape">
-      <p>California is a diverse and vibrant state located on the western coast of the United States, known for its stunning natural landscapes, iconic cities, and innovative culture. From the beaches of Southern California to the towering redwoods in the north, and from Silicon Valley’s tech hub to Hollywood’s entertainment industry, California offers something for everyone. With a rich history, mild climate, and a blend of cultures, it stands as a dynamic and influential part of the country.</p>
-    </aside>
-    <footer>
-      <p>©2025 🏜️ Derek Nielsen 🏜️ California, U.S.A.</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White Water Rafting - Home</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ancizar:wght@400;700;900&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Welcome to White Water Rafting - your go-to adventure destination for river rafting. Sign up for trips, get info, and enjoy the wild waters.">
+  <meta name="author" content="Derek Nielsen">
+</head>
+<body>
+  <header>
+    <img src="images/wwr-logo.jpg" alt="White Water Rafting Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero-image.jpg" alt="Rafting Adventure" class="hero-img">
+      <h1 class="hero-heading">Experience the Thrill of White Water Rafting!</h1>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-signup">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form>
+        <label for="newsletter-name">Name:</label>
+        <input type="text" id="newsletter-name" name="newsletter-name" required>
+
+        <label for="newsletter-email">Email:</label>
+        <input type="email" id="newsletter-email" name="newsletter-email" required>
+
+        <button type="submit">Subscribe Now</button>
+      </form>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action">
+      <h2>Ready for an Adventure?</h2>
+      <p>Book your trip today and ride the wild waters!</p>
+      <a href="trips.html" class="cta-button">View Trips</a>
+    </section>
+
+    <!-- Grid Content Section -->
+    <section class="grid-info">
+      <div class="grid-item">
+        <img src="images/rafting-purpose.jpg" alt="Rafting Mission">
+        <h3>Our Purpose</h3>
+        <p>We bring people together through the thrill of rafting and the beauty of nature.</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/services.jpg" alt="Rafting Services">
+        <h3>What We Offer</h3>
+        <p>From half-day trips to multi-day expeditions, we have the adventure for you.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2025 White Water Rafting, Derek Nielsen</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram"></a>
+    </nav>
+  </footer>
+</body>
 </html>

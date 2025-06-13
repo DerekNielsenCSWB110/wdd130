@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <Title>White Water Rafting - Contact Us</Title>
+        <meta name="description" content="Contact White Water Rafting for general inquiries, reservations, or feedback. Reach us by phone, email, or message through the contact form.">
+        <meta name="author" content="Derek Nielsen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ancizar:wght@400;700;900&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+        
+</head>
+<body>
+    <header>
+        <img src="images/wwr-logo.jpg" alt="wwr-logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p><strong>Address:</strong> 123 River Run Rd, Rapids City, CO 80452</p>
+            <p><strong>Phone:</strong> (800) 555-RAFT</p>
+            <p><strong>Email:</strong> contact@whitewaterrafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="900" height="300" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Jordan - Guide Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Samantha - Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Mike - Reservation Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="user-name">Name:</label>
+                <input type="text" id="user-name" name="name" required>
+
+                <label for="user-email">Email:</label>
+                <input type="email" id="user-email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                        General Inquiry
+                    </label><br>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label><br>
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" name="message" rows="5" required></textarea>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" id="submit-button">Send Message</button>
+            </form>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>©2025 White Water Rafting, Derek Nielsen</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram"></a>
+        </nav>
+        <p><a href="images/contact-wireframe.png" target="_blank">View Contact Page Wireframe</a></p>
+    </footer>
+</body>
+</html>
